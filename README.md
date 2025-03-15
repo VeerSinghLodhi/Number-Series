@@ -1,82 +1,68 @@
-# Number-Series
+# Number Series Programs in Java
 
+This repository contains a collection of Java programs focused on solving number and string-related problems. Below is a brief description of each program:
 
-Number Series and Special Numbers
-ArmStrongNumber:
-A program to check whether a given number is an Armstrong number.
+## Files and Descriptions
 
-Description: An Armstrong number is a number that is equal to the sum of its own digits raised to the power of the number of digits.
-Example: 153 = 
+1. **ArmStrongNumber.java**  
+   This program checks whether a given number is an Armstrong number.  
+   *Example:* 153 is an Armstrong number because \(1^3 + 5^3 + 3^3 = 153\).
 
-EvenOrOdd:
-A program to determine whether a given number is even or odd.
+2. **EvenOrOdd.java**  
+   A simple program to determine if a given number is even or odd.
 
-Description: Uses the modulus operator (%) to check divisibility by 2.
-FactorialProgram:
-A program to calculate the factorial of a given number.
+3. **FactorialProgram.java**  
+   Computes the factorial of a given number using an iterative or recursive approach.  
+   *Example:* Factorial of 5 is \(5! = 120\).
 
-Description: Factorial of 
-𝑛
-n is the product of all positive integers less than or equal to 
-𝑛
-n.
-Example: 
-5!
-=
-5
-×
-4
-×
-3
-×
-2
-×
-1
-=
-120
-5!=5×4×3×2×1=120.
-PalindromeNumber:
-A program to check whether a given number is a palindrome.
+4. **PalindromeNumber.java**  
+   Checks if a given number is a palindrome.  
+   *Example:* 121 is a palindrome because it reads the same forwards and backwards.
 
-Description: A palindrome number is one that reads the same backward as forward.
-Example: 121, 12321.
-PalindromeString:
-A program to check whether a given string is a palindrome.
+5. **PalindromeString.java**  
+   Verifies if a given string is a palindrome.  
+   *Example:* "madam" is a palindrome.
 
-Description: A palindrome string reads the same backward as forward.
-Example: "madam", "level".
-PrimeNumberOrNot:
-A program to determine whether a number is a prime number.
+6. **PrimeNumberorNot.java**  
+   Determines if a given number is a prime number.  
+   *Example:* 7 is a prime number as it is divisible only by 1 and itself.
 
-Description: A prime number is greater than 1 and has no divisors other than 1 and itself.
-Example: 2, 3, 5, 7.
-ReverseInteger:
-A program to reverse the digits of an integer.
+7. **ReverseInteger.java**  
+   Reverses the digits of an integer.  
+   *Example:* 123 becomes 321.
 
-Description: Takes a number as input and reverses its digits.
-Example: 123 becomes 321.
-ReverseString:
-A program to reverse a given string.
+8. **ReverseString.java**  
+   Reverses the characters of a string.  
+   *Example:* "hello" becomes "olleh".
 
-Description: Takes a string input and outputs its reverse.
-Example: "hello" becomes "olleh".
-SpecialNumber:
-A program to check for special numbers (e.g., magic numbers).
+9. **SpecialNumber.java**  
+   Checks if a given number is a special number based on specific criteria.  
+   *Example:* (Custom logic to be detailed in the program.)
 
-Description: A special number depends on a unique condition, such as the sum of digits repeatedly adding to 1.
-Example: 19 → 
+10. **StrongNumber.java**  
+    Determines if a number is a Strong number. A Strong number is a number where the sum of the factorials of its digits equals the number itself.  
+    *Example:* 145 is a Strong number because \(1! + 4! + 5! = 145\).
 
-1+9=10→1+0=1 (magic number).
-StrongNumber:
-A program to check whether a number is a Strong number.
+## How to Run
 
-Description: A Strong number is a number where the sum of the factorial of its digits equals the number itself.
-Example: 145 = 
-1!
-+
-4!
-+
-5!
-=
-145
-1!+4!+5!=145.
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/<your-username>/<repository-name>.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd <repository-name>
+   ```
+3. Compile the Java programs using the command:
+   ```bash
+   javac <FileName>.java
+   ```
+4. Run the program with:
+   ```bash
+   java <FileName>
+   ```
+5. Follow the on-screen instructions to provide input.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
