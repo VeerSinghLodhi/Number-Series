@@ -8,40 +8,60 @@ This repository contains a collection of Java programs focused on solving number
    This program checks whether a given number is an Armstrong number.  
    *Example:* 153 is an Armstrong number because \(1^3 + 5^3 + 3^3 = 153\).
 
-2. **EvenOrOdd.java**  
+   ##
+
+3. **EvenOrOdd.java**  
    A simple program to determine if a given number is even or odd.
 
-3. **FactorialProgram.java**  
+   ##
+
+5. **FactorialProgram.java**  
    Computes the factorial of a given number using an iterative or recursive approach.  
    *Example:* Factorial of 5 is \(5! = 120\).
 
-4. **PalindromeNumber.java**  
+   ##
+
+7. **PalindromeNumber.java**  
    Checks if a given number is a palindrome.  
    *Example:* 121 is a palindrome because it reads the same forwards and backwards.
 
-5. **PalindromeString.java**  
+   ##
+
+9. **PalindromeString.java**  
    Verifies if a given string is a palindrome.  
    *Example:* "madam" is a palindrome.
 
-6. **PrimeNumberorNot.java**  
+   ##
+
+11. **PrimeNumberorNot.java**  
    Determines if a given number is a prime number.  
    *Example:* 7 is a prime number as it is divisible only by 1 and itself.
 
-7. **ReverseInteger.java**  
+    ##
+
+13. **ReverseInteger.java**  
    Reverses the digits of an integer.  
    *Example:* 123 becomes 321.
 
-8. **ReverseString.java**  
+    ##
+
+15. **ReverseString.java**  
    Reverses the characters of a string.  
    *Example:* "hello" becomes "olleh".
 
-9. **SpecialNumber.java**  
+    ##
+
+17. **SpecialNumber.java**  
    Checks if a given number is a special number based on specific criteria.  
    *Example:* (Custom logic to be detailed in the program.)
 
-10. **StrongNumber.java**  
+    ##
+
+19. **StrongNumber.java**  
     Determines if a number is a Strong number. A Strong number is a number where the sum of the factorials of its digits equals the number itself.  
     *Example:* 145 is a Strong number because \(1! + 4! + 5! = 145\).
+
+    ##
 
 ## How to Run
 
