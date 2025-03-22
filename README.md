@@ -1,5 +1,7 @@
 # Number Series Programs in Java
 
+<a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="60" height="60"/> </a>
+
 This repository contains a collection of Java programs focused on solving number and string-related problems. Below is a brief description of each program:
 
 ## Files and Descriptions
